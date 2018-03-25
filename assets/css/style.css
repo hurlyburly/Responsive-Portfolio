@@ -80,21 +80,51 @@ margin-left: -15px;
   background-color: #ffffff;
   border-color: #dddddd;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  margin:10% 5% 5% 15%;
+  margin-top:10%;
+  width:552px;
   border: 2px solid #ddd;
   overflow: auto;
   padding:15px;
+  height:fit-content;
 
 }
+.contact {
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin-top:10%;
+    width:552px;
+    border: 2px solid #ddd;
+    overflow: auto;
+    padding:15px;
+    height:fit-content;
+  
+  }
+  .portfolio {
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin-top:10%;
+    width:552px;
+    border: 2px solid #ddd;
+    overflow: auto;
+    padding:15px;
+    height:fit-content;
+  
+  }
 .connect {
   color: #777777;
   background-color: #ffffff;
   border-color: #dddddd;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  margin:10% 5% 5% 0%;
+  margin-top:10%;
   padding:15px;
   border: 2px solid #ddd;
   overflow: auto;
+  height:fit-content;
+  width:368px;
 
 }
 #contact-name {
@@ -173,34 +203,38 @@ margin-left: -15px;
 }
 @media only screen and (max-width:980px) {
   .about-me {
-    max-width:45%;
+    width:66%;
+    margin-left:15%;
+    margin-right:5%;
+  }
+  .contact {
+    width:66%;
+    margin-left:15%;
+    margin-right:5%;
+  }
+  .portfolio {
+    width:66%;
     margin-left:15%;
     margin-right:5%;
   }
   .connect {
-    max-width: 25%;
+    width:33%;
     margin-left:0%;
-    margin-right:5%;
+    margin-right:0%;
   }
 }
 @media only screen and (max-width: 768px) {
-    .container{
-        margin-top:10%; 
-        }
       .about-me {
         max-width: 100%;
-        margin-right: 15%;
-        margin-left:10%;
-        padding:5%;
-        align-content: center;
+      }
+      .contact {
+        max-width: 100%;
+      }
+      .portfolio {
+        max-width: 100%;
       }
       .connect {
-        position: relative;
         max-width: 100%;
-        margin-right: 15%;
-        margin-left:10%;
-        padding:5%;
-        align-content: center;
       }
     
 }
@@ -215,10 +249,23 @@ margin-left: -15px;
         margin-left:10%;
         padding:5%;
         align-content: center;
+      } 
+        .contact {
+        max-width: 100%;
+        margin-right: 15%;
+        margin-left:10%;
+        padding:5%;
+        align-content: center;
+      }
+      .portfolio {
+        max-width: 100%;
+        margin-right: 15%;
+        margin-left:10%;
+        padding:5%;
+        align-content: center;
       }
       .connect {
-        position: relative;
-        max-width: 100%;
+        max-width:100%;
         margin-right: 15%;
         margin-left:10%;
         padding:5%;
